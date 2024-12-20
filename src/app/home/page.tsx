@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import Image from "next/image";
 import pic1 from "@/app/images/home1.png"
@@ -176,7 +177,7 @@ export default function Home(){
          </div>
        </div>
 
-       <div className="lg:w-[880px] lg:h-[192px] ex:w-[380px] ex:h-[740px] lg:ml-[280px] ex:ml-[7px] lg:mt-[80px] ex:mt-[1000px] lg:flex gap-[46px]">
+       <div className="lg:w-[880px] lg:h-[192px] ex:w-[380px] ex:h-[740px] lg:ml-[280px] ex:ml-[7px] lg:mt-[80px] ex:mt-[1000px] lg:flex ex:hidden gap-[46px]">
          <div>
            <p className="font-medium text-[15px] leading-6">Icons</p>
            <div className="w-[184px] h-[144px] text-[#757575]">
